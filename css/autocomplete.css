@@ -1,0 +1,28 @@
+﻿.ui-autocomplete {
+    background-color: #ffffff;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.ui-menu-item > a.ui-corner-all {
+    padding: 5px;
+    clear: both;
+    font-weight: normal;
+    line-height: 18px;
+    color: #000000;
+}
+
+.ui-state-focus {
+    color: white !important;
+    background-color: #0088cc;
+}
+
+.ui-autocomplete {
+    height: 150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

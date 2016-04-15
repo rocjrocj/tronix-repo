@@ -1,0 +1,839 @@
+
+/**
+ * Signin
+ */
+html.alt {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #0A1225),
+    color-stop(1, #10263E)
+    );
+  background-image: -o-linear-gradient(bottom, #0A1225 0%, #10263E 100%);
+  background-image: -moz-linear-gradient(bottom, #0A1225 0%, #10263E 100%);
+  background-image: -webkit-linear-gradient(bottom, #0A1225 0%, #10263E 100%);
+  background-image: -ms-linear-gradient(bottom, #0A1225 0%, #10263E 100%);
+  background-image: linear-gradient(to bottom, #0A1225 0%, #10263E 100%);
+  background-color: #10263E;
+  min-height: 100%;
+}
+html.alt.signin {
+    background-color: transparent;
+    min-height: 100%;
+    background-image: url("/Images/bg_top.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+html.alt.signin body {
+    background: none;
+}
+
+.logopanel.alt {
+  background-color: rgb(50,58,69);
+  margin: -32px -31px 3em;
+  padding: 32px 31px 31px;
+  position: relative;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.tooltip-arrow.alt {
+  bottom: -10px;
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px 10px 0;
+  border-top-color: rgb(50,58,69);
+}
+
+.signin.alt .signinpanel { margin-top: 5%;}
+.signin.alt .signin-body { background-color: #fff; }
+.signin.alt .signup-footer { border-top: none; margin-top: 0; }
+
+.signin-title { color: #333; margin-bottom: 0.75em;}
+
+
+
+/**
+ * Page Header
+ */
+.pageheader {
+  padding: 15px 20px;
+}
+
+
+
+/**
+ * Left Panel
+ */
+.nav-bracket .children > li > span {
+   padding: 5px 20px 5px 27px;
+}
+.nav-parent .children a.active {
+   text-decoration: none;
+   color: #1caf9a;
+   font-weight: bold;
+}
+
+
+
+/**
+ * Main Panel
+ */
+.pagecontrols { margin-top: 5px; }
+.pagecontrols .fa {
+  border: none;
+  color: #fff;
+  font-size: 120%;
+  margin-right: 0;
+  padding: 0;
+  position: relative;
+  top: 1px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.pagecontrols .label:before,
+h2 .pagecontrols span:before { content: ''; margin: 0; }
+.pagecontrols .label { color: #fff; font-style: normal; letter-spacing: inherit; }
+
+.btn-default-pagecontrol { background-color: rgba(0,0,0,0.2); color:#fff; }
+.btn-default-pagecontrol:hover { background-color: rgba(0,0,0,0.25); color:#fff; }
+
+
+
+/**
+ * Dashboards
+ */
+.panel-stat .stat {
+  max-width: 100%;
+}
+.panel-stat h1 {
+  font-family: 'Helvetica Neue',sans-serif;
+  font-size: 32px;
+  line-height: 26px;
+  margin: 0;
+}
+.panel-stat .stat img {
+  max-height: 40px;
+  text-align: center;
+}
+.btn-mtneg { position:relative; top:-10px; }
+
+
+/**
+ * Table Styles
+ */
+.th {
+  font-family: 'LatoBold';
+  font-weight: normal;
+  color:#636E7B;
+}
+
+.table>tbody>tr>td {
+  vertical-align: middle;
+}
+
+
+
+/**
+ * Form Styles
+ */
+.btn-group-radio span.radio {
+	display:none;
+}
+
+.chosen-container-single .chosen-single {
+  padding: 9px 10px 7px;
+}
+/*.radio-group { display: inline-block; margin-right:30px; }*/
+
+
+
+/**
+ * Footer
+ */
+footer {
+  background: none;
+  margin-top:15px;
+  margin-left: 240px;
+}
+footer a {
+   color: #8F939E;
+}
+footer .copyright {
+	padding:15px 15px 10px;
+}
+
+
+
+/**
+ * Tables
+ */
+ .table.transparent thead th { background-color: transparent; }
+ .table.clean,
+ .table.clean th,
+ .table.clean td { border: none; }
+
+ .table.extra { color: #000; margin-bottom: 0; text-align: left; }
+ .table.extra th,
+ .table.extra td,
+ .row-header  {
+  padding: 0.25em 0.75em;
+  white-space: nowrap;
+}
+.table.extra thead th {
+  font-family: 'RobotoRegular', "LatoRegular";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.table.extra tbody th,
+.row-header { text-align: right; }
+/* Change for PLR-853 to make row headers more bold JMC 07/25/2014 */
+.row-header
+{
+    /* font-family: "LatoBold"; */
+    font-weight: bold;
+}
+
+.ckbox-mt { margin-top:7px; }
+.table-mb0 { margin-bottom:0px; }
+
+/**
+ * Buttons (alt)
+ */
+.btn.alt {
+  background-color: #b5bcc4;
+  border-color: #b5bcc4;
+  font-size: 85%;
+  line-height: 1;
+  padding: 4px 10px;
+  text-transform: uppercase;
+}
+.btn.alt:hover,
+.btn.alt:focus,
+.btn.alt:active,
+.btn.alt.active { background-color: #0b62a5; border-color: #0b62a5; }
+
+.lrpad { padding:0 5px; margin-right: 5px; }
+
+.btn-mtneg { position:relative; top:-10px; }
+input.btn-margin { margin:8px; }
+
+.btn-quicknav {
+    white-space: normal;
+}
+.btn-quicknav .fa {
+    display:block;
+    color: #FFFFFF;
+    font-size: 36px;
+    opacity: 1;
+    padding-top: 12px;
+}
+
+/**
+ * Modals
+ */
+.modal-header .close {
+    font-size:14px;
+}
+/* removed the word close per PLR-788 James Cates 6/4/2014 */
+.modal-header .close:before {
+    /* content: "close"; */
+    font-size:14px;
+}
+.modal-header.modal-danger {
+  background-color: #D9534F;
+  color:#fff;
+}
+.modal-header.modal-danger .close {
+    color:#fff;
+    opacity:1;
+}
+
+/**
+ * Summary header
+ */
+.summary-header {
+  background-color: #365574;
+  color: #fff;
+  margin: -20px -20px 0 -20px;
+  overflow: hidden;
+  padding: 1em 0.5em;
+}
+.summary-header h2,{ font-size: 110%; text-transform: uppercase; line-height: 1.4em; }
+.sub-content dt { font-family: "LatoBold", 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, sans-serif; font-weight: normal; color: #111111; text-align: left; }
+
+.subsection h3.header-text { font-weight: normal;
+    color: #111111;
+    font-size: 18px;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'RobotoRegular', 'LatoRegular','Lucida Grande','Lucida Sans Unicode',Helvetica,sans-serif;
+}
+
+.subsection h4 { margin: 0; }
+.subsection h4 + .sub-content { margin-top: 0.75em; }
+.subsection .sub-content { font-size: 85%; }
+/*.subsection .sub-content dt { font-family: }*/
+
+/*
+.sub-content {  }
+.sub-content dt { text-align: left; }*/
+
+
+
+/**
+ * Badge
+ */
+.badge.badge-primary {
+  background-color:#428BCA;
+  padding: 5px 9px;
+}
+.badge.badge-primary:hover {
+  opacity: 0.8;
+  transition: all 0.2s ease-out 0s;
+  cursor: pointer;
+}
+.badge.badge-danger {
+  background-color:#D2322D;
+  padding: 5px 9px;
+}
+.badge.badge-danger {
+  opacity: 0.8;
+  transition: all 0.2s ease-out 0s;
+  cursor: pointer;
+}
+
+
+
+/**
+ * Panels
+ */
+.panel-title .badge:hover {
+  opacity: 0.8;
+  transition: all 0.2s ease-out 0s;
+  cursor: pointer;
+}
+
+.panel-btns label {
+  display: inline-block;
+  float: right;
+  margin-left: 8px;
+}
+
+.panel.panel-bordered {
+   border: 1px solid #ddd;
+}
+
+
+
+/**
+ * Custom Panels and tables in panels
+ * :: selectable-panels
+ */
+.selectable-panel .panel-heading { padding: 0.75em; }
+.selectable-panel .panel-title label { margin-bottom: 0 !important;}
+.selectable-panel .panel-title .label {
+  color: #000;
+  font-family: "RobotoBold", "LatoBold", 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.panel-title .btn.checkbox { font-size: 100%; }
+.btn.checkbox { border: none; line-height: 1; min-height: 0; }
+.btn-default.checkbox { background-color: rgba(0,0,0,0.2); }
+.btn-default.checkbox i { color: #fff; }
+.btn.checkbox.active { background-color: inherit; }
+.btn.checkbox input { display: none; }
+
+/* overrides for alternate style when in a header or group of buttons */
+.as-button { margin-bottom: 0 !important; }
+.as-button .btn.checkbox { line-height: 21px; padding-top: 6px; padding-bottom: 6px; border: 1px solid transparent; }
+.as-button .btn.checkbox .label { font-size: 14px; top: 0; }
+
+.selectable-panel .panel-body .row { text-align: right; padding-right: 10px; }
+.selectable-panel .panel-body .row > div { display: inline-block; padding: 0; vertical-align: top; }
+.selectable-panel .panel-body .row > div + div { margin-left: 1.5em; }
+
+
+
+/**
+ * Modal panels
+ */
+.dmsstatus { float:left;  font-size:2em;}
+
+.nav-tabs-alt { background-color: #3E403F; }
+.nav-tabs-alt > li > a { color: #CCC; }
+.nav-tabs-alt > li > a:hover,
+.nav-tabs-alt > li > a:focus { color: #F2F2F2; }
+.nav-tabs-alt > li.active > a,
+.nav-tabs-alt > li.active > a:hover,
+.nav-tabs-alt > li.active > a:focus,
+.tab-content-alt { background-color: #545F68; }
+.nav-tabs-alt > li.active > a,
+.nav-tabs-alt > li.active > a:hover,
+.nav-tabs-alt > li.active > a:focus { color: #F2F2F2; }
+.tab-content-alt .panel-group-dark .panel-title a.collapsed { background-color: #252625; }
+
+
+
+/**
+ * Misc
+ */
+.tx80 { font-size: 80%; }
+.tx85 { font-size: 85%; }
+.uppercase { text-transform: uppercase; }
+
+.highlight { background-color: #fff38d; color: #000; display: inline-block; padding: 0 0.25em; }
+.transparent { background-color: transparent; }
+.no-shadow {
+  -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.bg-white { background-color: #fff; }
+.bg-modal,
+.panel.bg-modal > .panel-heading { background-color: #edf2f6; }
+
+.no-padding { padding: 0; }
+.no-margin { margin: 0; }
+.mb0 { margin-bottom: 0; }
+.mt0 { margin-top: 0; }
+
+.checkbox.alt { padding-left: 0; }
+
+.btn.inputbutton { padding:9px 15px; }
+
+.well-mb0 { margin-bottom:0px; }
+
+hr { margin:32px 0; }
+
+.customerinfo-on-file i.fa, .customerinfo-on-file i.glyphicon { padding-right:15px; }
+
+
+
+/**
+ * Modals
+ */
+.modal.secondary { z-index: 100050 !important; }
+.modal-backdrop.fade.in + .modal-backdrop.fade.in { z-index: 100040 !important; }
+
+
+
+/**
+ * New Deal Page
+ */
+.cobuyerinfo, .cobuyerremove {display: none;}
+.netsalespricecalc .well { margin-bottom:0px; }
+.buttonsForRadioInputs input, .buttonsForRadioInputs label { display:none; }*/
+
+
+/**
+ * Media Queries
+ */
+@media screen and (max-width: 1024px) {
+	footer {
+      margin-left: 0;
+      width: 100%;
+   }
+} /* end of @media @media screen and (max-width: 1024px) */
+
+
+
+@media screen and (max-width: 767px) {
+
+} /* end of @media screen and (max-width: 767px) */
+
+
+
+@media screen and (max-width: 640px) {
+  table .chosen-single div { display:none!important; }
+
+} /* end of @media screen and (max-width: 640px) */
+
+
+
+@media screen and (max-width: 480px) {
+
+} /* end of @media screen and (max-width: 480px) */
+
+
+
+@media screen and (max-width: 360px) {
+
+} /* end of @media screen and (max-width: 360px) */
+
+
+
+@media screen and (max-width: 320px) {
+
+} /* end of @media screen and (max-width: 320px) */
+
+.ErrMsgText
+{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    color: red;
+}
+
+/* Added for User Management per PLR-669 JMC */
+.ErrMsgTextLg
+{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    color: red;
+}
+
+/* Added for User Management per PLR-669 JMC */
+.UserMsgTextLg {
+	color: green;
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+}
+
+/*
+    Added these four styles to override the opacity setting for minimize/maximize and close buttons on right hand header of
+    panels - see bootstrap-override.css line 646 or so James Cates 06/03/2014
+*/
+.panel-btns a {
+   margin-left: 8px;
+   float: right;
+   color: #000;
+   display: inline-block;
+   font-weight: 500;
+   opacity: 0.6;
+   font-size: 16px;
+   -moz-transition: all 0.2s ease-out 0s;
+	-webkit-transition: all 0.2s ease-out 0s;
+	transition: all 0.2s ease-out 0s;
+}
+
+.panel-btns a.minimize {
+   font-size: 18px;
+}
+
+.panel-btns a:hover {
+   text-decoration: none;
+   opacity: 1.0;
+   cursor: pointer;
+}
+
+.panel-btns a.minimize:active,
+.panel-btns a.minimize:focus {
+   opacity: 0.6;
+   text-decoration: none;
+}
+
+/* Begin PLR-788 -  style for right-aligned buttons (to DIV or panel) James Cates */
+
+.btns-right {
+    margin-right: 10px;
+    text-align: right;
+}
+
+/* End PLR-788 James Cates */
+
+.btns-right-xm {
+    text-align: right;
+}
+
+/* Begin PLR-858 - style for right-aligned data values James Cates */
+.panel-stat {
+    border: none;
+    box-shadow: none;
+}
+
+.h4-stat {
+    text-align: right;
+}
+
+.panel-chart {
+    border: none;
+    box-shadow: none;
+}
+/* End PLR-858 James Cates */
+
+/* Begin PLR-864 - Style to cause all modal titles to be UPPERCASE James Cates */
+.modal-title {
+   text-transform: uppercase;
+}
+/* End PLR-864 James Cates */
+
+/* Begin PLR-863 - Style to force Menu Settings Modal (CreatDealMenu) ul and li to be 100% wide and evenly spaced James Cates */
+.list-unstyled100 {
+    width: 100%;
+}
+
+.checkbox-inline20 {
+    width: 20%;
+}
+/* End PLR-863 James Cates */
+
+/* PLR-858 James Cates */
+.panel-stat .label-right {
+	text-align: right;
+}
+
+.caret-right {
+	text-align: right;
+    float: right;
+    padding-left: 5px;
+}
+
+.caret-right-title {
+	text-align: right;
+    /*float: right;*/
+    padding-left: 5px;
+}
+
+.subtitle_dash {
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #333;
+	font-family: 'LatoBold';
+    /*font-weight: bold;*/
+	margin-bottom: 15px;
+	margin-top: 0;
+    text-align: center;
+}
+
+.subtitle.chart_dash {
+    text-align: center;
+}
+/* End PLR-858 James Cates  */
+
+/* PLR-883 and many others - global change to make all table-striped theader th be center aligned horizontally */
+ .table-striped theader th
+ {
+	border-color: #eee;
+	background-color: #fff;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	color: #444;
+    text-align: center;
+}
+
+.table.use-right-align thead > tr > th{
+    text-align: right !important;
+}
+
+/* End PLR-883 */
+
+td.center {
+    text-align:center;
+}
+
+/* Fix to make all responsive tables (and grids therein) automatically scroll inside their container James Cates 12/12/2014 */
+.table-responsive
+{
+    overflow: auto;
+}
+
+@media screen {
+    .force-page-break {
+            page-break-before: auto !important;
+    }
+}
+
+@media print {
+    .panel-body {
+        display: block !important; 
+    }
+
+    .force-page-break {
+            page-break-before: always !important;
+    }
+
+    .table-responsive 
+    {
+        display: block !important;
+        width: auto !important; 
+        height: auto !important;
+        overflow: visible !important;
+    }
+    
+    .table-striped 
+    {
+        display: block !important;
+        width: auto !important;
+        height: auto !important;
+        overflow: visible !important;
+        word-wrap: break-word !important;
+    }
+}
+
+
+/* Flex Grid */
+.row-fix {
+    margin-right: 10px;
+}
+
+.flex-row {
+    /*display: flex;*/
+    /*flex: 0 1 auto;*/
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+@media screen and (min-width: 768px)
+{
+    /*.md-flex-row {
+        display: flex;
+        flex: 0 1 auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }*/
+}
+
+@media screen and (min-width: 1400px)
+{
+    /*.lg-flex-row {
+        display: flex;
+        flex: 0 1 auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }*/
+}
+
+.flex-block {
+    /*flex: 0 0 auto;*/
+    /*flex-grow: 1;*/
+    /*flex-basis: 0px;*/
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .md-flex-block {
+        /*display: none;*/
+        flex: 0 0 50%;
+    }
+}
+
+/* Dash Panels */
+.dash-panel {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 33px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+@media screen and (min-width: 1170px) and (max-width: 1400px) {
+    .dash-panel {
+        /*display: none;*/
+        /*flex: 0 1 auto;*/
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    /*.dash-panel {*/
+        /*flex: 0 1 23.8%;*/
+        /*flex-direction: row;*/
+        /*align-items: center;*/
+    /*}*/
+}
+
+.dash-panel--active {
+    box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.dash-panel--blue {
+    background: #428bca;
+}
+
+.dash-panel--green {
+    background: #1CAF9A;
+}
+
+.dash-panel--orange {
+    background: #F0AD4E;
+}
+
+.dash-panel--red {
+    background: #D9534F;
+}
+
+.dash-panel__amount,
+.dash-panel__label {
+    color: #fff;
+    display: flex;
+}
+
+.dash-panel__amount {
+    font-size: 38px;
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+
+.dash-panel__label {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    flex: 0 0 auto;
+}
+
+@media screen and (min-width: 970px) and (max-width: 1400px) {
+    .dash-panel__amount { font-size: 32px; }
+    .dash-panel__label { font-size: 18px; }
+}
+
+@media screen and (min-width: 1170px) and (max-width: 1400px) {
+    .dash-panel__amount { margin-bottom: 15px; }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1170px) and (max-width: 1400px) {
+    .dash-panel__amount { margin-bottom: 35px; }
+}
+
+@media screen and (min-width: 1400px) {
+    .dash-panel__amount { font-size: 38px; }
+    .dash-panel__label { font-size: 22px; }
+}
+
+/* Button Customizations
+------------------------------------------ */
+.btn-input-height {
+    height: 39px;
+    line-height: 26px;
+}
+
+/* Panel Subtitle
+------------------------------------------ */
+.panel-subtitle.panel-subtitle.panel-subtitle {
+    color: #4a535e;
+    opacity: 1;
+}
+
+/* Panel Modifiers
+------------------------------------------ */
+.panel-dark-body {
+    background: rgb(180, 180, 180);
+}
+
+/* Control Label Asterisks
+------------------------------------------ */
+.control-label .asterisk {
+  position: absolute;
+  top: 3px;
+  margin-left: 4px;
+}
