@@ -1,0 +1,34 @@
+/* Scss Document */
+body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+/* login */
+
+
+.bakW {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	background-color: #0a243b;
+}
+.bakT {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 33%;
+    background-color: #0a62a5; 
+}
+.logW {
+	position: relative;
+	background-color: #fff;
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+	top: 200px;
+}
+
