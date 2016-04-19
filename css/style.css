@@ -28,3 +28,7 @@ body {
   height: 600px;
   margin: 0 auto;
   top: 200px; }
+
+.logo {
+  position: relative;
+  z-index: 10; }
